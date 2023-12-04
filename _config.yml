@@ -3,8 +3,8 @@ title: Dr. Abdulla Al Mamon
 email: abdulla.physics@gmail.com
 url: https://abdulla-al-mamon.github.io
 description: "Assistant Professor of Physics"
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+keywords: "General Relativity, Cosmology, Black Holes, Gravitational Waves"
+skills: ""
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -32,10 +32,10 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Dr. Abdulla Al Mamon
   location: Location
   social: Around the Web
-  credits: Credits
+  credits:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
