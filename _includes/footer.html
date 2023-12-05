@@ -28,7 +28,7 @@ a.svg-icon {
             {% for network in site.social %}
             <li>
               {% if network.title == "ORCID" %}
-              <a href="https://orcid.org/{{ site.orcid_username| cgi_escape | escape }}"><img class="svg-icon" src="/img/orcid_icon.svg"><span class="username">{{ site.orcid_username| escape }}</span></a>
+              <a href="{{ network.url }}"><img class="svg-icon" src="/img/orcid_icon.svg"></a>
               {% else %}
               <a href="{{ network.url }}" class="btn-social btn-outline"><i
                   class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
