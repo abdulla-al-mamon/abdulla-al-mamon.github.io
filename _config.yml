@@ -33,7 +33,8 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Abdulla Al Mamon
-  location: Location
+  location: Postal address 
+  #Location
   social: Around the Web
   credits:
 
@@ -49,6 +50,8 @@ social:
   #  url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/abdulla-al-mamon
+  - title: ORCID
+    url: https://orcid.org/0000-0002-2748-3845
 
 # Postal address (add as many lines as necessary)
 address:  
