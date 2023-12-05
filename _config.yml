@@ -51,9 +51,9 @@ social:
     url: http://github.com/abdulla-al-mamon
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 
-  - line: 
+address:  
+  - line: "V.S. Mahavidyalaya At+PO: Manikpara Dist: Jhargram"
+  - line: "PIN: 721513, West Bengal, India"
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
