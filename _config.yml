@@ -7,6 +7,7 @@ keywords: "General Relativity, Cosmology, Black Holes, Gravitational Waves"
 skills: ""
 meta_author: LastName FirstName
 orcid_username: 0000-0002-2748-3845
+inspirehep: "https://inspirehep.net/authors/1507742?ui-citation-summary=true"
 
 # Google webmaster tools
 google_verify:
@@ -53,6 +54,8 @@ social:
     url: http://github.com/abdulla-al-mamon
   - title: ORCID
     url: https://orcid.org/0000-0002-2748-3845
+  - title: inspirehep
+    url: https://inspirehep.net/authors/1507742?ui-citation-summary=true
 
 # Postal address (add as many lines as necessary)
 address:  
