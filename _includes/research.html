@@ -1,4 +1,7 @@
 <!-- Research Section -->
+<style>
+  b {font-size: 25px}
+</style>
 <section class="success" id="research">
   <div class="container">
     <div class="row">
@@ -16,7 +19,21 @@
       </div>
       <div class="col-lg-4">
         <p>
-          To be updated soon!
+	  <b style="color:SlateBlue;">For a detailed list of publications, check the following links</b><br>
+	  <ul class="list-inline">
+            {% for network in site.social %}
+            <li>
+              {% if network.title == "ORCID" %}
+              <a href="https://orcid.org/{{ site.orcid_username| cgi_escape | escape }}"> <img class="social-icon" src="/img/orcid.png"> </a>
+	      {% elsif network.title == "inspirehep" %}
+	      <a href="{{ network.url| cgi_escape | escape }}"> <img class="social-icon" src="/img/inspirehep.png"> </a>
+	      {% elsif network.title == "googlescholar" %}
+	      <a href="{{ network.url| cgi_escape | escape }}"> <img class="social-icon" src="/img/google-scholar.png"> </a>
+              {% else %}
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
         </p>
       </div>
 
