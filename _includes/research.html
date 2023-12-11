@@ -28,7 +28,7 @@
 	      {% elsif network.title == "inspirehep" %}
 	      <a href="https://inspirehep.net/authors/{{ site.inspirehep| cgi_escape | escape }}"> <img class="social-icon" src="/img/inspirehep.png"> </a>
 	      {% elsif network.title == "googlescholar" %}
-	      <a href="https://scholar.google.co.in/citations?user={{ site.googlescholar| cgi_escape | escape }}"> <img class="social-icon" src="/img/google-scholar.png"> </a>
+	      <a href="https://scholar.google.co.in/citations?user={{ site.googlescholar }}"> <img class="social-icon" src="/img/google-scholar.png"> </a>
               {% else %}
               {% endif %}
             </li>
