@@ -27,7 +27,9 @@ img.social-icon {
               {% if network.title == "ORCID" %}
               <a href="https://orcid.org/{{ site.orcid_username| cgi_escape | escape }}"> <img class="social-icon" src="/img/orcid.png"> </a>
 	      {% elsif network.title == "inspirehep" %}
-	      <a href="{{ site.inspirehep| cgi_escape | escape }}"> <img src="/img/inspirehep.png"> </a>
+	      <a href="{{ network.url| cgi_escape | escape }}"> <img class="social-icon" src="/img/inspirehep.png"> </a>
+	      {% elsif network.title == "googlescholar" %}
+	      <a href="{{ network.url| cgi_escape | escape }}"> <img class="social-icon" src="/img/google-scholar.png"> </a>
               {% else %}
               <a href="{{ network.url }}" class="btn-social btn-outline"><i
                   class="fa-brands fa-fw fa-{{ network.title }}"></i></a>

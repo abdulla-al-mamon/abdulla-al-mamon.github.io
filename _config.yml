@@ -56,6 +56,8 @@ social:
     url: https://orcid.org/0000-0002-2748-3845
   - title: inspirehep
     url: https://inspirehep.net/authors/1507742?ui-citation-summary=true
+  - title: googlescholar
+    url: "https://scholar.google.co.in/citations?user=gu5GioQAAAAJ&hl=en"
 
 # Postal address (add as many lines as necessary)
 address:  
